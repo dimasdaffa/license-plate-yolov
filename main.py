@@ -1,7 +1,12 @@
 from ultralytics import YOLO
 
 # Load a model
-model = YOLO("yolov8n.yaml")  # build a new model from scratch
+model = YOLO("yolo11n.pt")
 
-# Use the model
-results = model.train(data="config.yaml", epochs=3)  # train the model
+# Train the model
+train_results = model.train(
+    data="D:\license-plate-yolov\config.yaml",  # path to dataset YAML
+    epochs=5,  # number of training epochs
+    imgsz=640,  # training image size
+    device="cpu",  # device to run on, i.e. device=0 or device=0,1,2,3 or device=cpu
+)

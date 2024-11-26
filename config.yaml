@@ -1,7 +1,9 @@
 
-path: D:\license-plate-yolov\data  # dataset root dir
-train: data\platcola  # train images (relative to 'path')
-val: data\platcola  # val images (relative to 'path')
+path: D:\license-plate-yolov\data
+
+train: D:\license-plate-yolov\data\train
+val: D:\license-plate-yolov\data\train
+
 
 # Classes
 names:
