@@ -1,0 +1,20 @@
+# Ignore specific folders
+2.TL.Jembatan Merah/
+cropped/
+data/
+geckodriver-v0.35.0-win32/
+id/
+license-vehicle-3/
+obj_train_data/
+plat-annot/
+plat-cropped/
+platcola_anotation/
+reso/
+runs/detect/
+test_images/
+
+# Ignore specific files
+2.TL.Jembatan Merah-20241210T060508Z-001.zip
+auto.py
+script.py
+task_license_detector_001_annotations_2024_11_26_04_39_14_yolo 1.1.zip
